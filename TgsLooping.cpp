@@ -25,6 +25,7 @@ bool cekPrima(int angka) {
     if (angka <= 1) return false;
     int i = 2;
     
+    // Angka 2 adalah bilangan prima terkecil, jadi kita mulai pengecekan dari 2
     bool prima = true;
     while (i * i <= angka) {
         if (angka % i == 0) {
