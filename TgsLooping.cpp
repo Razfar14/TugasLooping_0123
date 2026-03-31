@@ -76,3 +76,20 @@ int main() {
         }
 
         
+        switch (pilihan) {
+            case 1:
+                inputAngka();
+                tampilkanHasil("Prima", cekPrima(n));
+                break;
+            case 2:
+                inputAngka();
+                tampilkanHasil("Fibonacci", cekFibonacci(n));
+                break;
+            default:
+                cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
+                break;
+        }
+    }
+
+    return 0;
+}
