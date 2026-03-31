@@ -21,7 +21,20 @@ void inputAngka() {
 }
 
 
-
+bool cekPrima(int angka) {
+    if (angka <= 1) return false;
+    int i = 2;
+    
+    bool prima = true;
+    while (i * i <= angka) {
+        if (angka % i == 0) {
+            prima = false;
+            break;
+        }
+        i++;
+    }
+    return prima;
+}
 
 
 
