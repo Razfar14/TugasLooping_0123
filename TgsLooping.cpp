@@ -43,7 +43,8 @@ bool cekFibonacci(int angka) {
     
   
     if (angka == a || angka == b) return true;
-    
+   
+    // Menghasilkan bilangan Fibonacci hingga mencapai atau melewati angka yang dimasukkan
     int temp = 0;
     while (temp < angka) {
         temp = a + b;
