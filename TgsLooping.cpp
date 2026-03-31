@@ -64,5 +64,7 @@ void tampilkanHasil(string jenis, bool hasil) {
     }
 }
 
+int main() {
+  
 
         
