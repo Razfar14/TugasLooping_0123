@@ -37,6 +37,22 @@ bool cekPrima(int angka) {
 }
 
 
+bool cekFibonacci(int angka) {
+    int a = 0;
+    int b = 1;
+    
+  
+    if (angka == a || angka == b) return true;
+    
+    int temp = 0;
+    while (temp < angka) {
+        temp = a + b;
+        a = b;
+        b = temp;
+    }
+    
+    return (temp == angka);
+}
 
 
 
