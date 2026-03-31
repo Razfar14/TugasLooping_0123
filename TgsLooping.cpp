@@ -41,7 +41,7 @@ bool cekFibonacci(int angka) {
     int a = 0;
     int b = 1;
     
-  
+    // Cek jika angka adalah 0 atau 1, yang merupakan bilangan Fibonacci
     if (angka == a || angka == b) return true;
    
     // Menghasilkan bilangan Fibonacci hingga mencapai atau melewati angka yang dimasukkan
