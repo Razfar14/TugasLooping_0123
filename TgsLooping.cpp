@@ -66,5 +66,13 @@ void tampilkanHasil(string jenis, bool hasil) {
 
 int main() {
   
+    while (true) {
+        tampilkanMenu();
+        cin >> pilihan;
+
+        if (pilihan == 9) {
+            cout << "Terima kasih! Program selesai." << endl;
+            break; 
+        }
 
         
