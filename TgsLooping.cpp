@@ -15,7 +15,10 @@ void tampilkanMenu() {
 }
 
 
-
+void inputAngka() {
+    cout << "Masukkan bilangan yang ingin dicek: ";
+    cin >> n;
+}
 
 
 
